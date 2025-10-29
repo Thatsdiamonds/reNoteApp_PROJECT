@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186450316589",
+    "project_id": "renoteapp-ae6f3",
+    "storage_bucket": "renoteapp-ae6f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186450316589:android:ccc78624bed381f6a317a4",
+        "android_client_info": {
+          "package_name": "com.smkth.renotesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCArMTyKWBUOO6kdGsuWHA6H_cfn2cc3kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
