@@ -55,6 +55,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.lottie)
+    implementation("com.google.android.material:material:1.12.0")
+}
 
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))

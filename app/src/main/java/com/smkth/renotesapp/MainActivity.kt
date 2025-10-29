@@ -1,6 +1,8 @@
 package com.smkth.renotesapp
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import android.content.Intent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -26,10 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val tambahBtn = findViewById<ExtendedFloatingActionButton>(R.id.btnTambah)
+        tambahBtn.setOnClickListener {
+            // Aksi saat tombol tambah ditekan
         }
     }
 }
